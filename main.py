@@ -18,3 +18,9 @@ while valid_response == False:
         valid_response = True
     else:
         print("I don't think you know what an animal is, sorry!")
+        
+
+dream_car = input("What is your dream car? ")
+
+for char in dream_car:
+    print(char + '" the if a for loop!"')
